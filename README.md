@@ -1,24 +1,34 @@
-# README
+# WIEDZA 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Fecha de inicio: 13/12/2017
+Fecha de finalización: 02/02/2018
 
-Things you may want to cover:
+## Asignaciones - Para el 08/01/2018:
 
-* Ruby version
+### Daniel Peña
 
-* System dependencies
+* Crear menú principal - Listo
 
-* Configuration
+* Slider en la página principal - Listo
 
-* Database creation
+* Configurar formularios de contacto. Que los correos llegen al correo establecido.
 
-* Database initialization
+* Terminar efecto Parallex en la página principal
 
-* How to run the test suite
+* Separar el contenido en vistas parciales (organizar el proyecto)
 
-* Services (job queues, cache servers, search engines, etc.)
+### Leensan Chong
 
-* Deployment instructions
+* Botones de redes sociales en el top header
 
-* ...
+* Crear página de contacto
+
+* Configurar botones de redes sociales: Que se comparta un extracto del sitio web.
+
+* Crear/Terminar el footer del sitio web
+
+### Angelo Paredes
+
+* Crear página de servicios
+
+* Crear página "Sobre nosotros"
