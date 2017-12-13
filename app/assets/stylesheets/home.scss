@@ -1,0 +1,95 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "carousel";
+
+.websiteAlarm{
+  background-color: darkred;
+  color:white;
+  padding: 0.3em;
+}
+
+.topHeader{
+  background-color: #062c33;
+  color: #eeeeee;
+  padding-top:0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.7em;
+  scroll-padding-right: 0.7em;
+}
+.backgroundPage{
+  background-color: ghostwhite;
+
+}
+.categoryBox{
+  margin: 0.3em;
+  padding: 0.4em;
+  width: 50%;
+  height: auto;
+  border: 2px solid #0c5460;
+  align-items: center;
+}
+.downHeader-banner{
+  height: 7px;
+  background-color:#062c33;
+}
+
+.carouselBox{
+  background-color: #1b1e21;
+}
+
+.servicesBox{
+  margin-top: 50px;
+}
+.services-icon-box{
+  margin-bottom: 0.8em;
+}
+.services-icon-box img{
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.services-icon-box img:hover{
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+
+/* Parallax */
+.parallax {
+  /* The image used */
+  /* Full height */
+  height: 380px;
+  width:100%;
+
+  /* Create the parallax scrolling effect */
+
+  background: image-url('/parallex-1.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+
+.parallax > .parallaxBox{
+  margin-top: 0.4em;
+  margin-right: 0.4em;
+}
+
+.parallex-1-content{
+  background:rgba(0, 10, 20, 0.7);
+  font-size:1.75rem;
+}
+
+
+.topFooter{
+  height: 20px;
+  background-color:#062c33;
+}
+.bodyFooter{
+  background-color: #1d2124;
+  color:grey;
+
+}
+.bodyFooter .contentFooter{
+  margin-right: 1.0em;
+}
+.miniContactForm{
+  padding: 0.6em;
+}
