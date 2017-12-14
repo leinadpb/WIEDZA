@@ -1,4 +1,4 @@
-# WIEDZA 
+# WIEDZA
 
 Fecha de inicio: 13/12/2017
 Fecha de finalización: 02/02/2018
@@ -15,7 +15,7 @@ Fecha de finalización: 02/02/2018
 
 * Terminar efecto Parallex en la página principal
 
-* Separar el contenido en vistas parciales (organizar el proyecto)
+* Separar el contenido en vistas parciales (organizar el proyecto) - Listo
 
 ### Leensan Chong
 
