@@ -11,12 +11,9 @@
 
 
 
-
-
-
-
+/*Primer boton "Apps / Sitios Wed*/
 .text {
-	
+	/*fondo cris detras de la imagen*/
 	height: 225px;
 	width: 215px;
 	border-radius: 50px;
@@ -25,17 +22,43 @@
 }
 
 #wed {
+	/*imagen*/
 	height: 200px;
 	width: 200px;
 }
 
 .sitioswed {
+	/*texto debajo de la imagen*/
 	 letter-spacing:4px;	
-	
-	 	font-weight:bold;
+	 font-weight:bold;
+	 margin: 10px;
+	padding:10px;
 }
 
 
+.bottom1 {
+	/*controlador del boton*/
+	margin: 60px;
+	padding:60px;
+}
+
+
+
+
+
+.bottom2 {
+	/*controlador del boton*/
+	margin: 60px;
+	padding:60px;
+}
+
+.sitioswed2{
+	/*texto debajo de la imagen*/
+	 letter-spacing:0.1px;
+	 font-weight:bold;
+	 margin: 1px;
+	padding:1px;
+}
 
 
 
