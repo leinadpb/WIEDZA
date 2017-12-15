@@ -10,13 +10,30 @@
 
 
 
+
+
+
+
+
 .text {
-	height: 30px;
-	width: 40px;
-	background-color: red;
+	
+	height: 225px;
+	width: 215px;
+	border-radius: 50px;
+	background-color: #BDBDBD;
+	opacity: 0.9;
 }
 
+#wed {
+	height: 200px;
+	width: 200px;
+}
 
+.sitioswed {
+	 letter-spacing:4px;	
+	
+	 	font-weight:bold;
+}
 
 
 
