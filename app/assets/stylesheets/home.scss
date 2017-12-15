@@ -3,12 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "carousel";
-@import "bootstrap-social";
 
 .websiteAlarm{
   background-color: darkred;
   color:white;
   padding: 0.3em;
+}
+
+.socialBox > img{
+  width:30px;
+  height:30px;
 }
 
 .topHeader{
