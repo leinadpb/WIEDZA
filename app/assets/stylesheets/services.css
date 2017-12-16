@@ -14,17 +14,19 @@
 /*Primer boton "Apps / Sitios Wed*/
 .text {
 	/*fondo cris detras de la imagen*/
-	height: 225px;
+	height: 225px ;
 	width: 215px;
 	border-radius: 50px;
 	background-color: #E6E6E6;
 	opacity: 0.9;
+	border:1px solid #000;
+	padding: 17px;
 }
 
 #wed {
 	/*imagen*/
-	height: 200px;
-	width: 200px;
+	height: 180px;
+	width: 180px;
 }
 
 .sitioswed {
@@ -33,13 +35,14 @@
 	 font-weight:bold;
 	 margin: 10px;
 	padding:10px;
+
 }
 
 
 .bottom1 {
 	/*controlador del boton*/
 	margin: 60px;
-	padding:60px;
+	padding:60px ;
 }
 
 
@@ -66,95 +69,59 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.wiedza {
-	color: #8A0808 }
-
-#apps {
-    	 font-weight:bold;
-    	 text-align:none;
-	
-    }
-
-    .textone {
-    	border-bottom:1px solid #4C4C4C; /*raya abajo*/
-    border-top:1px solid #4C4C4C;    /*raya arriba*/
-    color:#000;					    /*color del texto*/
-    font-size:20px;					/*tamaño del texto*/
-    font-weight:100px;
-    letter-spacing:4px;				/*espacio entre letras*/
-    line-height:25px;
-    padding:10px 0;
-    text-transform:uppercase;
-   font-weight:none;
-    margin:20px ;
-    padding:90px;
-
-
-
-
-
-        }
-   
- 
-   
-
-hr {
-  height: 0.1px;
-  background-color: black;
-}
-    	 
-    	
- #rounded-img-thumbnail {
- 	position: relative ;
- 	top: 90px; 
-  left: 90px;
- }
-
- li:hover {
-  margin: 0;
+li:hover {
+  margin:0;
   padding: 0;
-  background:#8A0808;
+  background:#E6E6E6;
+  border:1px solid #000;
 
  
 }
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ 
+   
+
+    	 
+ 
+ 
