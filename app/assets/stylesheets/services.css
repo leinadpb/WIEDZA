@@ -36,6 +36,7 @@
 	 margin: 10px;
 	padding:10px;
 
+
 }
 
 
@@ -55,13 +56,36 @@
 	padding:60px;
 }
 
-.sitioswed2{
-	/*texto debajo de la imagen*/
-	 letter-spacing:0.1px;
-	 font-weight:bold;
-	 margin: 1px;
-	padding:1px;
+
+.bottom3 {
+	/*controlador del boton*/
+	margin: 60px;
+	padding:60px;
 }
+
+
+.bottom4 {
+	/*controlador del boton*/
+	margin: 60px;
+	padding:60px;
+}
+
+
+
+.bottom5 {
+	/*controlador del boton*/
+	margin: 60px;
+	padding:60px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
