@@ -1,16 +1,24 @@
 <style>
+
+.grow:hover
+{
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.3);
+}
+
 .numero-tel{
 	color:#F8F8FF;
 	size:40px;
-}
+}  							/* style de numero de telefono*/
 
 .alert-heading{
 	size: 100px;
-	color:#25d366;
+	color:#25d366;			/*color de fondo de style de boton de whatsapp*/
 }
 .ws{
 	display: none;
-}
+}							/*La entrada de el alert de whatsapp*/
 #MyId {
 	margin: 75px;
     width: 100%;
@@ -20,7 +28,7 @@
     margin-top: 20px;
     color:white;
     text-shadow: 4px 4px 6px #000000;
-}
+}							/*style de la funccion completa de Whatsapp*/
 </style>
 
 <script>
@@ -32,7 +40,7 @@
     else {
         	x.style.display = "none";
     	}
-}
+}								/*funcion que toma el alert de el boton de Whatsapp*/
 </script>
 
 </script>
@@ -41,16 +49,16 @@
 
 <div class="sticky-top websiteAlarm"> <!-- Website alarm -->
 	<div id="1Header" class="d-flex flex-row-reverse">
-	  <div class="p-2 socialBox"><a href="https://www.facebook.com/wiedza.conpany.7"><img src="/facebook-social.png" alt="facebook" width="30px" ></a>	</div>
+	  <div class="p-2 socialBox grow"><a href="https://www.facebook.com/wiedza.conpany.7"><img src="/facebook-social.png" alt="facebook" width="30px" ></a>	</div>
 
-	  <div class="p-2 socialBox"><a href="https://mail.google.com/mail/u/3/#inbox"><img src="/google-social.png" alt="googler" width="30px"></a></div>
+	  <div class="p-2 socialBox grow"><a href="https://mail.google.com/mail/u/3/#inbox"><img src="/google-social.png" alt="googler" width="30px"></a></div>
 
-	  <div class="p-2 socialBox"><a href="https://twitter.com/Wiedzaconpany"><img src="/twitter-social.png" alt="twitter" width="30"></a></div>
+	  <div class="p-2 socialBox grow"><a href="https://twitter.com/Wiedzaconpany"><img src="/twitter-social.png" alt="twitter" width="30"></a></div>
 
-	   <div class="p-2"><img src="/whatsapp-social.png" alt="whatsapp" width="30px" 
+	   <div class="p-2 grow"><img src="/whatsapp-social.png" alt="whatsapp" width="30px" 
 	    onclick="whatsapp()">
 
-	  	<div id= "MyId" class="ws alert alert-success" role="alert">
+	  	<div id= "MyId " class="ws alert alert-success" role="alert">
 	      <h4 class="alert-heading">Whatsapp</h4>
   			<p class="numero-tel">829-212-5312</p>
  					<p class="mb-0">
@@ -58,16 +66,12 @@
 		</div>
 
 
-
-
-
-
-
 	  </div>
 
-	  <div class="p-2 socialBox"><a href="https://www.instagram.com/wiedzaconpany/?hl=es-la">	<img src="/instagram3.png" alt="instagram" width="30px">	</a></div>
+	  <div class="p-2 socialBox grow"><a href="https://www.instagram.com/wiedzaconpany/?hl=es-la">	<img src="/instagram.png" alt="instagram" width="30px">	</a></div>
 
 
 	</div>
 </div>
+
 
