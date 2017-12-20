@@ -2,15 +2,89 @@
 
   <%= render :partial => 'home/partials/mainMenu', :formats => [:html] %> <!-- Menu principal -->
 
- <div id="Title" >
- 	<h2 align="center">Contactos</h2></div>
+
+ <!--<style>  mapa
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+
+
+       <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3x_gr8sg5oS2EP8R4pFYJJ-3ADcg1oS8&callback=initMap">
+    </script>
+-->
+
+<style>
+.h2{
+	font-family: fantasy;
+
+}
+	
+.Encabezado1{
+	font-size: 24px;
+	font-family: fantasy;
+	color:#C9C9C9;
+
+}
+
+.contexto1{
+	text-align : justify;
+	font-family: cursive;
+	color: #BABABA;
+}
+
+/*.iframe{
+
+	border-top-width:62px;
+  border-right-width:62px;
+  border-bottom-width:62px;
+  border-left-width:62px;
+
+}*/
+
+</style>
+
+
+
+ <div id="Title" class="container" >
+ 	<h2 class="h2">Contactos</h2></div>
 
     <div class="container">
 
 		<div class="row">	
 
 				<div class="col-md-4">
-				<p class="">Para tener mas informacion de unos de nuestos  servicios podra acceder a las diversas redes sociales que cuenta este sitio web la cuales le vrindaran un excelente servicio en cualquier momento que lo necesites</p>
+				<p class="Encabezado1">Donde estamos ubicados.</p>
+				<p  class="contexto1">Centor de los Heroes calle correa y cidron. Residebcial Castel, justo detras de la Liga municipal de la Rep.Dom</p>
+
+				<form>
+					
+
+
+
+				</form>
+					 First name:<br>
+					<input type="text" name="firstname" value="Nombre">
+  			<br>
+ 					 Last name:<br>
+  						<input type="text" name="lastname" value="apellido">
+  			<br><br>
+					    <input type="submit" value="Submit">
 
 				</div>
 
@@ -18,12 +92,23 @@
 		
 
 			  <div class="col-md-4">
-				<p>Aqui te dejaremos todas las maneras de contactarnos 		
+				<div id="map">
+	
+			<iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.695461268082!2d-69.93206958542336!3d18.452131376080338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea56272a1aea3a3%3A0x8e233237fef1b3ba!2sResidencial+Castel!5e0!3m2!1ses-419!2sdo!4v1513776432623" width="675" height="450" frameborder="62px" style="border:62px" allowfullscreen></iframe>
 
-			</p>
 		 </div>
 	 </div>
 	</div>
+
+
+
+
+</div>
+
+</br>
+
+
+
 
 
 <%= render :partial => 'home/partials/footer', :formats => [:html] %> <!-- Top header -->

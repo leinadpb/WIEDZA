@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get '/home/services/repair-pc', :to => "home#service_repair_pc"
   get '/home/services/software', :to => "home#service_software"
   get '/home/services/mobile_applications', :to => "home#service_mobile_applications"
-get '/home/services/SEO', :to => "home#service_SEO"
+  get '/home/services/SEO', :to => "home#service_SEO"
 
   root 'home#index'
 

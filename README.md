@@ -19,7 +19,7 @@ Fecha de finalización: 02/02/2018
 
 ### Leensan Chong
 
-* Botones de redes sociales en el top header
+* Botones de redes sociales en el top header 
 
 * Crear página de contacto
 
