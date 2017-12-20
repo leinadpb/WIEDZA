@@ -17,19 +17,21 @@
 	
    			
    
-.clases{
+.type-of-web{
 color:	#0080FF;
 text-align: center;
 }
 
-
+.secondary-text-web {
+	text-align: center;
+}
 
 #servicesimages {
 	height: 140px;
 	width: 140px;
 }
 
-.companyweb {
+.text-of-web {
 	
 	 color:#585858;
 	 font-weight:bold;
@@ -40,4 +42,5 @@ text-align: center;
 	-webkit-box-shadow:8px 8px 8px rgba(0,0,0,0.5);
 	-moz-box-shadow:8px 8px 8px rgba(0,0,0,0.5);
 	box-shadow:8px 8px 8px rgba(0,0,0,0.5);
+
 }

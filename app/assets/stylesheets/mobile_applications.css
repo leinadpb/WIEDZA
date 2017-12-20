@@ -1,0 +1,22 @@
+ 
+
+
+
+ .app-image {
+ 	height: 400px;
+ 	width: 400px;
+ 	
+ }
+
+.app-image:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.app-image {overflow:hidden;} 
+
+
+.secondary-text-apps {
+	text-align: center;
+}
+
+
+
+.efecto :hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.efecto {overflow:hidden;}
